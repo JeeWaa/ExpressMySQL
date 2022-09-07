@@ -11,5 +11,5 @@ app.listen(port, () => {
 
 app.get('/', (req,res) => {
     console.log('get request')
-    res.send('Hello')
+    res.send('Hello...')
 })
